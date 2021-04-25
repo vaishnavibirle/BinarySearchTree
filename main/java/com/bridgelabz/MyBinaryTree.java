@@ -19,7 +19,7 @@ public class MyBinaryTree<K extends Comparable<K>> {
             nodeValue.rightchild = addNodes(nodeValue.rightchild, key);
         return nodeValue;
     }
-    /*returning nodeValue*/
+    /*returning nodeValue using size method*/
     public int getSize() {
         return this.getSizeRecursively(rootNode);
     }
